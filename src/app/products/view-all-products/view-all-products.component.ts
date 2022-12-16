@@ -9,6 +9,7 @@ import { ProductService } from '../service/product.service';
 export class ViewAllProductsComponent implements OnInit {
 
   products:any
+  filterCategory:any
   constructor(private productService:ProductService) { }
 
   ngOnInit(): void {
@@ -18,5 +19,15 @@ export class ViewAllProductsComponent implements OnInit {
         this.products=data
        })
   }
-
+     filter(category:any)
+     {
+      this.filterCategory=this.products.filter((item:any)=>{ 
+        if (item.categoryId==category||category=='')
+        {
+          return item
+        }
+      
+     })
+    }
+    
 }
