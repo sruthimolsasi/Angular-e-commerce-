@@ -1,0 +1,56 @@
+<div class="container-fluid">
+    <div class="container d-flex">
+        <div>
+            <a href="">
+                <img style="width: 200px;height: 200px;" class="p-2" src="https://i.postimg.cc/qv7XNjWf/Product-of-the-Year-Canada-PRODUCT-OF-THE-YEAR-CANADA-ANNOUNCES.webp" alt="">
+                <h6 style="text-align: center; text-decoration:none ;color: black;">All product</h6>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img style="width: 200px;height: 200px;" class="p-2" src="https://i.postimg.cc/brmfqqZS/fashion-logo-symbol-vector-5458046.webp" alt="">
+                <h6 style="text-align: center;text-decoration: none;color: black;">Fasion</h6>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img style="width: 200px;height: 200px;" class="p-2" src="https://i.postimg.cc/FK4WC2KM/1600w-F0-L7-Tv-GOD-I.webp" alt="">
+                <h6 style="text-align: center;text-decoration: none;color: black;">Electronics</h6>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img  style="width: 200px;height: 200px;" class="p-2" src="https://i.postimg.cc/65ZFHV0G/logo-design-ideas-for-your-jewellery-business.jpg" alt="">
+                <h6 style="text-align: center;text-decoration: none;color: black;">Jewellary</h6>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div *ngFor="let product of products" class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img style="height: 200px;" class="card-img-top" src="{{product.productImg}}" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">{{product.productName}}</h5>
+                                    <!-- Product price-->
+                                    {{product.price}}Rs/-   <br>
+                                    Rating : {{product.rating}}
+                                </div>
+                            </div> 
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="products/view-product/{{product.id}}">view</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
