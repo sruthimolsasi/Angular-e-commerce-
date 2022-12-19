@@ -19,6 +19,10 @@ export class ViewAllProductsComponent implements OnInit {
         console.log('data is',data);
         this.products=data
        })
+
+       this.productService.search.subscribe((value:any)=>{
+        this.searchData=value
+       })
   }
      filter(category:any)
      {

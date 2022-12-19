@@ -1,4 +1,6 @@
+import { SelectorMatcher } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
+import { ProductService } from 'src/app/products/service/product.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  searchterm:any
+  constructor(private productservice:ProductService) { }
 
   ngOnInit(): void {
   }
 
+  searchf(event:any){
+    this.searchterm=event.target.value
+     this.productservice.search.next(this.searchterm)
+  }
+
 }
+

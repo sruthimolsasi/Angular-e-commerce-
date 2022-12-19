@@ -92,18 +92,56 @@
       "warranty": 2
     },
     {
-      "id": 10,
-      "productName": "Pierced Owl Rose Gold Plated Stainless Steel Double",
-      "categoryId": 3,
-      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-      "price": "500",
+      "id": 9,
+      "productName": "Apple iPhone 13 128 GB, Midnight (Black)",
+      "categoryId": 1,
+      "description": "You're looking at the Apple iPhone 13. No app or game is a hurdle for the iPhone 13, understandably since it runs the mighty Apple A15 Bionic processor. You can laze on the couch or bed and watch your favourite movies and TV shows on the iPhone 13’s massive 6.1-inch Super Retina XDR display running a resolution of 1170 x 2532px. The 256GB onboard storage, isn't just sufficient for most others, it's also fast, so your favourite apps load promptly. What’s more, the Apple iPhone 13 uses some of the best dual cameras around, sporting 12MP sensors with wide and ultra-wide lenses.",
+      "price": "69,900.00",
       "is_available": "yes",
-      "productImg": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-      "rating": "3.5",
+      "productImg": "https://i.postimg.cc/XJTbbBSr/download.jpg",
+      "rating": "4",
+      "review": "70",
+      "vendor_name": "Apple i phone",
+      "warranty": 2
+    },
+    {
+      "id": 10,
+      "productName": "Blue ROMAN Swarovski Crystal Silver Necklace",
+      "categoryId": 3,
+      "description": "This is a beautiful necklace made with Blue Square Roman pendant and embellished with luxurious Swarovski crystals  This infinitely beautiful necklace just draws a feeling of wow and makes one immediately fall in love with it. A cynosure that cannot be missed!  A perfect gift for someone you love and it could be for yourself. This beautiful work of art is well suited for all your important occasions.",
+      "price": "5000",
+      "is_available": "yes",
+      "productImg": "https://i.postimg.cc/wBxsPcpL/Blue-Square-Silver-Swarovski-Necklace-1-720x.webp",
+      "rating": "4.5",
+      "review": "200",
+      "vendor_name": "Malabar Jwellers",
+      "warranty": 1
+    },
+    {
+      "id": 10,
+      "productName": "Green Bird Pendant Swarovski Crystal Silver Necklace",
+      "categoryId": 3,
+      "description": "This is a beautiful necklace made with bird shaped pendant and embellished with luxurious Swarovski crystals  This infinitely beautiful necklace just draws a feeling of wow and makes one immediately fall in love with it. A cynosure that cannot be missed!  A perfect gift for someone you love and it could be for yourself. This beautiful work of art is well suited for all your important occasions.",
+      "price": "5000",
+      "is_available": "yes",
+      "productImg": "https://i.postimg.cc/QdqHD9ND/Bird-Green-Siver-Swarovski-Necklace-3-720x.webp",
+      "rating": "4.5",
+      "review": "200",
+      "vendor_name": "Malabar Jwellers",
+      "warranty": 1
+    },
+    {
+      "id": 10,
+      "productName": "Latest Designs Of Artificial Bangles For Girls in Fashion",
+      "categoryId": 3,
+      "description": " wow and makes one immediately fall in love with it. A cynosure that cannot be missed!  A perfect gift for someone you love and it could be for yourself. This beautiful work of art is well suited for all your important occasions.",
+      "price": "8000",
+      "is_available": "yes",
+      "productImg": "https://i.postimg.cc/HkfHfTXm/Latest-Fashion-of-Bangles-For-Women-in-Pakistan.webp",
+      "rating": "4.5",
       "review": "200",
       "vendor_name": "Malabar Jwellers",
       "warranty": 1
     }
-    
   ]
 }
