@@ -10,6 +10,7 @@ export class ViewAllProductsComponent implements OnInit {
 
   products:any
   filterCategory:any
+  searchData:any=''
   constructor(private productService:ProductService) { }
 
   ngOnInit(): void {
