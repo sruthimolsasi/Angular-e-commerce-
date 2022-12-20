@@ -5,7 +5,7 @@
       "productName": "Men's Formals Shirt",
       "categoryId": 2,
       "description": "L Half Sleeves Shirt",
-      "price": 700,
+      "price": "800",
       "is_available": "yes",
       "productImg": "https://i.postimg.cc/Yq1hvN16/shirt2.jpg",
       "rating": "4.7",
@@ -142,6 +142,19 @@
       "review": "200",
       "vendor_name": "Malabar Jwellers",
       "warranty": 1
+    },
+    {
+      "productName": "Bluetooth Speaker",
+      "categoryId": "1",
+      "description": "Willen is the mighty wireless speaker that is made to go everywhere with you. This speaker brings you the heavy Marshall sound you love with one 2’’ full range driver and two passive radiators. This outdoor speaker couldn’t care less about what you throw at it with its top-of-class IP67 dust- and water-resistance rating. Willen brings together the iconic Marshall design with a ruggedness that dares you to push its limits. All this, plus its hefty 15+ hours of listening on a single charge and mounting strap mean that Willen is raring to go wherever you go.",
+      "price": "14000/-",
+      "is_available": "yes",
+      "productImg": "https://i.postimg.cc/C1gd7m2M/marshall-willen-black-brass-01.webp",
+      "rating": "5",
+      "review": "good",
+      "vendor_name": "Marshall",
+      "warranty": "1",
+      "id": 11
     }
   ]
 }
